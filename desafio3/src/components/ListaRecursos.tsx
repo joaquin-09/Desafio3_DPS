@@ -103,7 +103,7 @@ export default function ListaRecursos({ modo }: { modo: Modo }) {
         onChangeText={setBusqueda}
         style={styles.buscador}
       />
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.chipsScroll} contentContainerStyle={styles.chips}>
         {tipos.map((t) => (
           <Chip key={t} selected={tipo === t} showSelectedOverlay onPress={() => setTipo(t)} style={styles.chip}>
             {t}
@@ -166,7 +166,8 @@ export default function ListaRecursos({ modo }: { modo: Modo }) {
 const styles = StyleSheet.create({
   contenedor: { flex: 1 },
   buscador: { margin: 12, marginBottom: 4 },
-  chips: { paddingHorizontal: 12, paddingVertical: 8 },
+  chipsScroll: { flexGrow: 0, flexShrink: 0 },
+  chips: { paddingHorizontal: 12, paddingVertical: 8, alignItems: 'center' },
   chip: { marginRight: 8 },
   orden: { marginHorizontal: 12, marginBottom: 8 },
   centro: { alignItems: 'center', padding: 32 },
