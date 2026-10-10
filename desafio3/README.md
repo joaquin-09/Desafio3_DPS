@@ -4,8 +4,8 @@ Tercer Desafío Práctico — Diseño y Programación de Software Multiplataform
 
 ## 🔗 Enlaces
 
-- **Repositorio de GitHub:** [PEGA_AQUI_LA_URL_DEL_REPOSITORIO](PEGA_AQUI_LA_URL_DEL_REPOSITORIO)
-- **Video demostrativo:** [PEGA_AQUI_LA_URL_DEL_VIDEO](PEGA_AQUI_LA_URL_DEL_VIDEO)
+- **Repositorio de GitHub:** [https://github.com/joaquin-09/Desafio3_DPS.git](PEGA_AQUI_LA_URL_DEL_REPOSITORIO)
+- **Video demostrativo:** [https://youtu.be/kt65uiqGPiU](PEGA_AQUI_LA_URL_DEL_VIDEO)
 - **API (mockapi.io):** `https://6aca8b823115bcc95820ecaa.mockapi.io`
 
 ## ✨ Funcionalidades
